@@ -79,7 +79,7 @@ const contacts = [
   { label: "微信", value: "UpsXiaobei" },
   {
     label: "知乎",
-    value: "余健辉",
+    value: "小贝",
     href: "https://www.zhihu.com/people/yu-jian-hui-72",
   },
   {
@@ -102,10 +102,11 @@ export default function Home() {
         <section className="grid gap-12 md:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] md:items-center">
           <div className="space-y-8">
             <h1 className="text-4xl font-semibold leading-tight text-[#1f1f1f] sm:text-5xl">
-              余健辉
+              小贝
             </h1>
             <p className="max-w-2xl text-base leading-relaxed text-[#565656] sm:text-lg">
               现任互联网大厂核心部门研发工程师，负责海量数据分布式处理系统的开发与维护。
+              <br />
               熟悉主流 AI Coding 工具与 Agent 技术栈，致力于让前沿 AI 能力真正服务于业务与工程团队。
             </p>
             <div className="flex flex-wrap gap-3">
@@ -143,7 +144,7 @@ export default function Home() {
               <div className="relative h-64 w-full overflow-hidden rounded-3xl">
                 <Image
                   src="/avatar.jpg"
-                  alt="余健辉头像"
+                  alt="小贝头像"
                   fill
                   sizes="(max-width: 768px) 100vw, 320px"
                   className="object-cover"
@@ -284,7 +285,7 @@ export default function Home() {
         </section>
 
         <footer className="mt-24 flex flex-col items-center justify-between gap-4 border-t border-white/60 pt-8 text-xs uppercase tracking-[0.28em] text-[#9f9f9f] sm:flex-row">
-          <span>余健辉 · AI 技术研发工程师</span>
+          <span>小贝 · AI 技术研发工程师</span>
           <span>Based in 华中 · 拥抱变化 · 笃定前行</span>
         </footer>
       </main>

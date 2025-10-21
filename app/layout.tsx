@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "余健辉 · AI 技术研发工程师",
+  title: "小贝 · AI 技术研发工程师",
   description:
-    "余健辉，华中科技大学计算机硕士，专注海量数据分布式处理与 AI Agent 落地实践。",
+    "小贝，华中科技大学计算机硕士，专注海量数据分布式处理与 AI Agent 落地实践。",
 };
 
 export default function RootLayout({
