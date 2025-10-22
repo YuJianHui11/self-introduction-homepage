@@ -73,13 +73,13 @@ const focusAreas = [
 const contacts = [
   {
     label: "公众号",
-    value: "AI 技术研习社",
+    value: "小贝带你玩转AIGC",
     href: "https://mp.weixin.qq.com/s/HhCGsXouM4-Gu7ymjZfK9g",
   },
   { label: "微信", value: "UpsXiaobei" },
   {
     label: "知乎",
-    value: "小贝",
+    value: "小贝的AIGC漫谈",
     href: "https://www.zhihu.com/people/yu-jian-hui-72",
   },
   {
